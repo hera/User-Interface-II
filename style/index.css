@@ -18,6 +18,21 @@ a:hover {
     color: #e76416;
 }
 
+
+/* Buttons */
+button, a.button {
+    display: inline-block;
+    min-width: 15rem;
+    text-align: center;
+    background-color: #F2A679;
+    color: #444;
+    border-radius: 9999px;
+    line-height: 4rem;
+    border: 0;
+    font-size: 1rem;
+}
+
+
 /* Headings */
 
 h1, h2, h3, h4 {
@@ -116,6 +131,7 @@ nav a {
 
 .description p {
     max-width: 420px;
+    margin-bottom: 1rem;
 }
 
 .greeting, .name, .position, .divider {
