@@ -49,7 +49,6 @@ h4 {
 /* Container */
 
 .container {
-    width: 1140px;
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
@@ -64,6 +63,7 @@ h4 {
     position: fixed;
     top: 0;
     width: 100%;
+    visibility: hidden;
 }
 
 nav {
@@ -84,4 +84,63 @@ nav a {
     top: 0;
     right: 0;
     padding: 0 2rem;
+}
+
+
+/* About section */
+
+.about-wrapper {
+    background-color: #49A695;
+    margin-top: 6rem;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+
+.avatar {
+    margin-bottom: 3rem;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+}
+
+.description {
+    color: white;
+}
+
+.description p {
+    max-width: 420px;
+}
+
+.greeting, .name, .position, .divider {
+    margin-bottom: 1rem;
+}
+
+.greeting {
+    font-size: 1.33rem;
+    color: #3F6973;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    border-radius: 9999px;
+    background-color: #3F6973;
+}
+
+.position {
+    font-size: 1.33rem;
+    font-weight: 700;
+    color: #F2CD88;
 }
