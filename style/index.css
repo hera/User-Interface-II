@@ -204,3 +204,30 @@ input[type=text], input[type=email], textarea {
     margin-bottom: 2rem;
     padding-left: 2rem;
 }
+
+
+/* Footer */
+
+.footer-wrapper {
+    background-color: #3F6973;
+}
+
+footer {
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social-item {
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #444;
+    border-radius: 9999px;
+    background-color: #F2A679;
+    margin-right: 1rem;
+}
