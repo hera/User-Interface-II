@@ -78,12 +78,13 @@ h4 {
     position: fixed;
     top: 0;
     width: 100%;
-    visibility: hidden;
+    min-height: 6rem;
 }
 
 nav {
     display: flex;
     flex-direction: column;
+    display: none;
 }
 
 nav a {
@@ -159,4 +160,24 @@ nav a {
     font-size: 1.33rem;
     font-weight: 700;
     color: #F2CD88;
+}
+
+
+/* Works */
+
+#works {
+    margin: 6rem 0;
+}
+
+div.work-list {
+    display: flex;
+    flex-direction: column;
+}
+
+div.work-item {
+    margin-bottom: 3rem;
+}
+
+div.work-item img {
+    width: 100%;
 }
