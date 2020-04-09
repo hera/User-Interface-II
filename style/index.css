@@ -1,1 +1,287 @@
-/* Add CSS styling here */
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #444444;
+}
+
+
+/* Links */
+
+a {
+    color: #F2A679;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e76416;
+}
+
+
+/* Buttons */
+button, a.button {
+    display: inline-block;
+    min-width: 15rem;
+    text-align: center;
+    background-color: #F2A679;
+    color: #444;
+    border-radius: 9999px;
+    line-height: 4rem;
+    border: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* Headings */
+
+h1, h2, h3, h4 {
+    line-height: 1;
+    color: #3F6973;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.33rem;
+    margin-bottom: 1rem;
+}
+
+/* Container */
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+
+/* Header */
+
+
+.header-wrapper {
+    background-color: #3F6973;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 6rem;
+}
+
+nav {
+    flex-direction: column;
+    display: none;
+}
+
+nav a {
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+#nav-toggle {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    line-height: 6rem;
+    top: 0;
+    right: 0;
+    padding: 0 2rem;
+}
+
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a {
+        margin-right: 2rem;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+}
+
+
+/* About section */
+
+.about-wrapper {
+    background-color: #49A695;
+    margin-top: 6rem;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+
+.avatar {
+    margin-bottom: 3rem;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+}
+
+.description {
+    color: white;
+}
+
+.description p {
+    max-width: 420px;
+    margin-bottom: 1rem;
+}
+
+.greeting, .name, .position, .divider {
+    margin-bottom: 1rem;
+}
+
+.greeting {
+    font-size: 1.33rem;
+    color: #3F6973;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    border-radius: 9999px;
+    background-color: #3F6973;
+}
+
+.position {
+    font-size: 1.33rem;
+    font-weight: 700;
+    color: #F2CD88;
+}
+
+@media (min-width: 768px) {
+    #about {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+
+/* Works */
+
+#works {
+    margin: 6rem 0;
+}
+
+div.work-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.work-item {
+    margin-bottom: 3rem;
+}
+
+div.work-item img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    div.work-item {
+        padding-right: 3rem;
+        box-sizing: border-box;
+        width: 50%;
+    }
+    div.work-list {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 992px) {
+    div.work-item {
+        width: 33.3%;
+    }
+}
+
+
+/* Contact */
+
+.contact-wrapper {
+    background-color: #F2CD88;
+}
+
+#contact {
+    padding: 6rem 0;
+}
+
+input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%;
+    background-color: white;
+    min-height: 4rem;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 2rem;
+    padding-left: 1.33rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding-top: 1.33rem;
+}
+
+
+/* Footer */
+
+.footer-wrapper {
+    background-color: #3F6973;
+}
+
+footer {
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social-item {
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #444;
+    border-radius: 9999px;
+    background-color: #F2A679;
+    margin-right: 1rem;
+}
