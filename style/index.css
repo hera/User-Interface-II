@@ -119,6 +119,10 @@ nav a {
     nav a {
         margin-right: 2rem;
     }
+
+    #nav-toggle {
+        display: none;
+    }
 }
 
 
