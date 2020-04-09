@@ -91,7 +91,6 @@ h4 {
 }
 
 nav {
-    display: flex;
     flex-direction: column;
     display: none;
 }
@@ -109,6 +108,17 @@ nav a {
     top: 0;
     right: 0;
     padding: 0 2rem;
+}
+
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav a {
+        margin-right: 2rem;
+    }
 }
 
 
