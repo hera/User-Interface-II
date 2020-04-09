@@ -72,7 +72,7 @@ h4 {
     margin: 0 auto;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1140px) {
     .container {
         width: 1140px;
     }
@@ -110,7 +110,7 @@ nav a {
     padding: 0 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     nav {
         display: flex;
         flex-direction: row;
@@ -185,7 +185,7 @@ nav a {
     color: #F2CD88;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     #about {
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -215,7 +215,7 @@ div.work-item img {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     div.work-item {
         padding-right: 3rem;
         box-sizing: border-box;
@@ -226,7 +226,7 @@ div.work-item img {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
     div.work-item {
         width: 33.3%;
     }
