@@ -12,10 +12,12 @@ body {
 a {
     color: #F2A679;
     text-decoration: none;
+    transition: color 0.4s ease;
 }
 
 a:hover {
     color: #e76416;
+    
 }
 
 
@@ -32,6 +34,11 @@ button, a.button {
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+button:hover, a.button:hover {
+    background-color: #e76416;
 }
 
 
@@ -284,4 +291,10 @@ footer {
     border-radius: 9999px;
     background-color: #F2A679;
     margin-right: 1rem;
+    transition: background-color 0.4s ease;
+}
+
+.social-item:hover {
+    background-color: #e76416;
+    color: #444;
 }
