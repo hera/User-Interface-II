@@ -1,6 +1,9 @@
+html {
+    font-size: 15px;
+}
+
 
 body {
-    font-size: 15px;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #444444;
